@@ -1,0 +1,163 @@
+body, div, h2, h3, ul { margin: 0;padding: 0;}
+body {background: rgb(6, 6, 46);}
+#msgBox { 
+    width: 500px;
+    margin: 10px auto;
+    padding-top: 10px;
+    border-radius: 5px;
+    background: #fff;
+}
+#msgBox form { padding: 15px 20px; padding-top: 0;}
+#msgBox h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px;
+    margin-left: 0;
+}
+#msgBox div { position: relative;}
+#msgBox div #userName {
+    height: 20px;
+    padding: 3px 0;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+#msgBox div #face {position: absolute; top: -18px; left: 180px;}
+
+#msgBox div img {
+    height: 28px;
+    width: 28px;
+    vertical-align: middle;
+    filter: alpha(opacity=50);
+    cursor: pointer;
+    border: 1px solid gray;
+}
+#msgBox div img:hover {
+    border: 1px solid red;
+    filter: alpha(opacity=100);
+}
+
+ #conBox {
+    width: 448px;
+    resize: none;
+    height: 65px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+#userName, #conBox {
+    color: #777;
+    border: 1px solid #d0d0d0;
+    border-radius: 6px;
+    background: #fff ;
+    padding: 3px 5px;
+    font: 14px/1.5 arial;
+}
+#msgBox form div {
+    position: relative;
+    color: #999;
+    margin-top: 10px;
+}
+#msgBox form div.tr {
+    height: 40px;
+    margin-top: 0;
+}
+.tr p {float: right;
+    height: 30px;
+    line-height: 30xp;
+    margin: 10px 0px;
+}
+.tr #sendBtn {
+    float: right;
+    border: 0;
+    width: 112px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    background: rgb(54, 223, 76);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.tr p strong {
+    font: 26px/30px Georgia, Tahoma, Arial;
+    padding: 0 5px;
+}
+h3 {height: 35px;
+    background: #d0d0d0;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+h3 span {background: white;
+    padding: 0 5px 5px 5px;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+}
+#msgBox .list ul li {
+    /* height: 52px; */
+    display: block;
+    clear: both;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-bottom: 1px dashed #d8d8d8;
+}
+#msgBox .list ul li:hover {
+    background: #f5f5f5;
+}
+   
+#msgBox .list ul li .userPic { 
+    float: left;
+    display: inline;
+    width: 70px;
+}
+#msgBox .list ul li .userPic img {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+#msgBox .list .content {
+    float: right;
+    width: 375px;
+    /* height: 50px;; */
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: arial;
+    word-wrap: break-word;
+    /* overflow: hidden; */
+    padding-right: 5px;
+}
+
+#msgBox .list ul li .content .userName {
+    display: inline;
+}
+#msgBox .list ul li .content .userName a {
+    color: black;
+    text-decoration: none;
+}
+#msgBox .list ul li .content .userName a:hover {
+    text-decoration: underline;
+    color: #2b4a78;
+}
+#msgBox .list ul li .content .userName .msgInfo {
+    display: inline-block;
+    margin-top: 0px;
+    /* vertical-align: middle; */
+    word-break:break-all;
+
+}
+#msgBox .list ul li .content a.del {
+    float: right;
+    color: #2b4a78;
+    text-decoration: none;
+    display: none;
+}
+#msgBox .list ul li.cutrren .content a.del {
+    display: block;
+}
+
+
+
