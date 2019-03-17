@@ -24,8 +24,6 @@ body, div {
 #table {
     width: 380px;
     height: 200px;
-    border: 1px solid white;
-    /* background: #2E4E80; */
     position: relative;
     transform-style: preserve-3d;
 }
@@ -76,7 +74,6 @@ body, div {
     width: 10px;
     background: rgb(115, 115, 115);
     border: none;
-    /* transform: translate3d(185px, -34px, -1px); */
 }
 #table #midle {
     border: none;
@@ -89,7 +86,6 @@ body, div {
 
 #table #shadow {
     border: none;
-    /* border-bottom: 200px solid #2E4E80; */
     height: 200px;
     width: 40px;
     background:rgba(0, 0, 0, 0);
@@ -108,7 +104,6 @@ body, div {
     background: rgba(0, 0, 0, 0);
     transform: rotate(-38deg) translateZ(168px);
     animation: rotateb1 2s infinite linear;
-    /* animation: rotate 3s linear; */
 }
 #c1 {
     width: 12px;
@@ -127,8 +122,6 @@ body, div {
     height: 340px;
     background: rgba(0, 0, 0, 0);
     transform: rotate(41deg) translateZ(168px);
-    /* 41deg */
-    /* transform:  rotate(45deg); */
     animation: rotateb2 2s infinite linear;
 
 }
@@ -147,7 +140,6 @@ body, div {
     width: 85px;
     height: 85px;
     background: rgba(0, 0, 0, 0);
-    /* transform: rotate(59deg); */
     animation: rotateb3 2s infinite linear;
     transform: rotate(-70deg) translateZ(168px);
 
@@ -160,14 +152,7 @@ body, div {
     top: -12px;
     left: 50%;
 }
-/* #c5 {
-    width: 10px;
-    height: 10px;
-    background: white;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-} */
+
 #b4 {
     position: absolute;
     top: 34px;
@@ -188,14 +173,7 @@ body, div {
     top: -12px;
     left: 50%;
 }
-/* #c5 {
-    width: 10px;
-    height: 10px;
-    background: white;
-    position: absolute;
-    top: 50%;
-    left: 100%;
-} */
+
 #c1 ,#c2, #c3, #c4 {
     width: 14px;
     height: 14px;
