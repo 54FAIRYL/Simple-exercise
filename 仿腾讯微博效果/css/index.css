@@ -22,6 +22,9 @@ body {background: rgb(6, 6, 46);}
     border-radius: 3px;
 }
 #msgBox div #face {position: absolute; top: -18px; left: 180px;}
+#msgBox div #face input{display: none;}
+
+#msgBox div #face label {width: 30px;height: 30px;margin: 0px;display: inline-block;padding:0px;margin-top: 6px;}
 
 #msgBox div img {
     height: 28px;
