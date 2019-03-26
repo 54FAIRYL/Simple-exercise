@@ -107,6 +107,7 @@ h3 span {background: white;
     padding-bottom: 10px;
     overflow: hidden;
     border-bottom: 1px dashed #d8d8d8;
+    position: relative;
 }
 #msgBox .list ul li:hover {
     background: #f5f5f5;
@@ -152,15 +153,17 @@ h3 span {background: white;
     word-break:break-all;
 
 }
-#msgBox .list ul li .content a.del {
+#msgBox .list ul li a.del {
+    width: 40px;
+    height: 20px;
     float: right;
     color: #2b4a78;
     text-decoration: none;
-    display: none;
+    visibility: hidden;
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* right: 10px; */
 }
-#msgBox .list ul li.cutrren .content a.del {
-    display: block;
+#msgBox .list ul li:hover a.del {
+    visibility: visible;
 }
-
-
-
